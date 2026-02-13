@@ -1,0 +1,9 @@
+.mainMenu {
+    display: flex;
+}
+
+.mainMenuButton {
+    padding: 10px;
+    border: 1px solid black;
+}
+

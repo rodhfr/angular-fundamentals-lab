@@ -1,0 +1,4 @@
+<h2>Servico 01</h2>
+<label for="nome">Digite seu nome: </label>
+<input type="text" #nomeInput (input)="nome = nomeInput.value">
+<button type="button" (click)="adicionarNome()">Adicionar nome</button>

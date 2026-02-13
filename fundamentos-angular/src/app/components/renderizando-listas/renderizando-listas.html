@@ -1,0 +1,10 @@
+<h2>renderizando uma lista de dados</h2>
+<ul class="lista-de-produtos">
+    @for (celular of celulares; track celular) {
+        <li>
+            <strong>{{ celular.nome }}</strong>
+            <p>{{ celular.descricao }}</p>
+            <span [class]="celular.esgotado ? 'esgotado' : 'disponivel'">{{ celular.esgotado ? "esgotado" : "disponivel" }}</span>
+        </li>
+    }
+</ul>

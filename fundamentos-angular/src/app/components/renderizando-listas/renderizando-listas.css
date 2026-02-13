@@ -1,0 +1,55 @@
+.lista-de-produtos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.lista-de-produtos li {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s;
+}
+
+.lista-de-produtos li:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.lista-de-produtos strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.lista-de-produtos p {
+  margin: 0 0 12px;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.lista-de-produtos span {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.disponivel {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.esgotado {
+  background: #fdecea;
+  color: #c62828;
+}

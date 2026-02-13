@@ -1,0 +1,4 @@
+<p>Sobrenome recebido do pai: {{ sobrenome() }}</p>
+<label for="nome">Digite o nome: </label>
+<input type="text" id="nome" #nomeInput (input)="nome = nomeInput.value">
+<button type="button" (click)="mostrarNome.emit(nome + ' ' + sobrenome())">Mostrar nome completo</button>

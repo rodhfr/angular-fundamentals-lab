@@ -1,0 +1,5 @@
+<h2>Servico 02</h2>
+<label for="descricao">Digite a descricao do produto: </label>
+<input type="text" #descricaoInput (input)="descricao = descricaoInput.value">
+<button type="button" (click)="this.adicionarDescricao()">Adicionar descricao</button>
+<button type="button" (click)="this.logger.exibeTodosOsLogs()">Exibe todos os logs</button>
